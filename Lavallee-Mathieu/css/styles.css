@@ -1,0 +1,135 @@
+.main {
+    max-width: 1000px;
+    min-width: 500px;
+    margin: auto;
+    background-color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.headerLayout {
+    display: grid;
+    grid-template-columns: 80px auto;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.headerLayout img {
+    width: 60px;
+    margin-left: 15px;
+}
+
+.menuLayout {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.menuLayout a {
+    min-width: 80px;
+    font-size: 1.3em;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 6px;
+    padding: 4px 20px 4px 20px;
+}
+
+.menuLayout a:hover {
+    color: white;
+    background-color: blue;
+}
+
+.menuLayout a:active {
+    background-color: darkblue;
+}
+
+.menuLayout .selected {
+    background-color: lightgrey;
+}
+
+.content {
+    padding: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.content img {
+    width: 100%;
+}
+
+.content p {
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: "Castoro";
+}
+
+.nom {
+    color: black;
+    margin-top: 15px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.infosPersonnelles {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.image {
+    border: 5px solid black;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 700px;
+    border-radius: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.grilleÀPropos {
+    display: grid;
+    grid-template-columns: 15px 400px 200px 300px 15px;
+}
+
+.boîteInfos {
+    margin-top: 20px;
+    margin-left: 16px;
+    display: grid;
+    grid-template-columns: 55px auto;
+    row-gap: 7px;
+    align-items: center;
+}
+.texteInfos {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 8px;
+}
+.tailleImage {
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.imageTelephone {
+    background-image: url("../images/telephone.png");
+}
+
+.imageCourriel {
+    background-image: url("../images/courriel.png");
+}
+
+.imageHabitation {
+    background-image: url("../images/habitation.png");
+}
+
+.imageLinkedin {
+    background-image: url("../images/linkedin.png");
+}
